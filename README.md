@@ -15,4 +15,4 @@ This eg is in the form of a blog post and uses procedures rather than classes.
    - configured components (eg author, date, comments) via props
      and sent properties from parent to child component
 
-3. Wrapped above CommentDetail component in an approve/reject card implemented as another separate component (ApprovalCard.js)
+3. Wrapped above CommentDetail component in an approve/reject card implemented as another separate component (ApprovalCard.js) with CommentDetail nested within and use of props.children.
